@@ -25,6 +25,7 @@ The project follows the MVC pattern for better organization and scalability:
 - Migrations: SQL migration files are available in db/migration/*.sql.
 
 **Installation**
+
 To set up the project locally, follow these steps:
 
   1.Clone this repository.
@@ -36,3 +37,5 @@ To set up the project locally, follow these steps:
   4.Configure database settings in db/config.go.
 
 After installation, the microservice is ready to use. Start the server, and it will listen for incoming API requests based on the defined routes.
+
+Note : import Go microservice.postman_collection.json in postman to test / debug route
